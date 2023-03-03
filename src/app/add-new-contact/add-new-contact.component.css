@@ -5,6 +5,8 @@
     border: 1px dashed #ff992e;
     border-radius: 4px;
     opacity: 1;
+    margin-top: 14px;
+    margin-left: 10px;
   }
   .new-contact {
     background-color: white;

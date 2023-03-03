@@ -9,6 +9,7 @@ import { SubHeaderComponent } from './sub-header/sub-header.component';
 import { AddNewContactComponent } from './add-new-contact/add-new-contact.component';
 import { PocComponent } from './poc/poc.component';
 import { ExistingContactsComponent } from './existing-contacts/existing-contacts.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ExistingContactsComponent } from './existing-contacts/existing-contacts
     SubHeaderComponent,
     AddNewContactComponent,
     PocComponent,
-    ExistingContactsComponent
+    ExistingContactsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

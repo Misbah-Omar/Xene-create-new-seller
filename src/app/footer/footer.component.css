@@ -1,0 +1,25 @@
+.button-container{
+    background-color: white;
+    height: 78px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.back,
+.save{
+    background-color: #F6F6F6;
+    width: 102px;
+    height: 40px;
+    margin-left: 16px;
+    margin-top: 25px;
+    border: 1px solid #EBEBEB;
+    border-radius: 3px;
+    opacity: 1;
+}
+.save{
+    color: white;
+    background-color: #24C8C9;
+    margin-right: 24px;
+
+}
