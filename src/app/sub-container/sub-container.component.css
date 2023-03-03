@@ -1,0 +1,10 @@
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 537px;
+  width: 751px;
+  margin: 15px 15px;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+}

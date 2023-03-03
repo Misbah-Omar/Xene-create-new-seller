@@ -1,0 +1,40 @@
+.create-new {
+    background-color: #fcfcfc;
+    height: 378px;
+    width: 348px;
+    border: 1px dashed #ff992e;
+    border-radius: 4px;
+    opacity: 1;
+  }
+  .new-contact {
+    background-color: white;
+    align-items: center;
+    margin-top: 127px;
+    margin-left: 138px;
+    height: 72px;
+    width: 72px;
+    border-radius: 36px;
+    border: 1px solid #ebebeb;
+  }
+  .addtext,
+  .point {
+    text-align: center;
+    color: #515151;
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .addtext {
+    margin-top: 12px;
+    margin-right: 2px;
+    margin-bottom: 0px;
+  }
+  .point {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-right: 2px;
+  }
+  .new-contact .person-icon {
+    color: #24c8c9;
+    font-size: 42px;
+  }

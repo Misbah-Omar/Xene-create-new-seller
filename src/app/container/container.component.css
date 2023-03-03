@@ -1,0 +1,14 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 778px;
+    height: 614px;
+    margin-right: 280px;
+    margin-bottom: 71px;
+    margin-top: 83px;
+    margin-left: 296px;
+    background-color: white;
+    border: 1px solid #EBEBEB;
+    border-radius: 3px;
+    opacity: 1;
+}

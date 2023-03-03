@@ -1,0 +1,24 @@
+.sub-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+  height: 48px;
+  width: 751px;
+  border: 1px solid #ebebeb;
+  border-radius: 4px 4px 0px 0px;
+}
+.point-of-contact {
+  color: #000000;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 14px;
+  margin-left: 17px;
+}
+.step {
+  color: #667677;
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 15px;
+  margin-right: 23px;
+}
