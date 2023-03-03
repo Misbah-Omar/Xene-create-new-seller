@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-add-new-contact',
@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AddNewContactComponent {
 
+  @Output() newClickEvent = new EventEmitter<boolean>();
+
+  showFirst: boolean = true;
+
+  toggle(){
+    this.showFirst = !this.showFirst;
+    this.newClickEvent.emit(this.showFirst);
+  }
 }

@@ -10,6 +10,7 @@ import { AddNewContactComponent } from './add-new-contact/add-new-contact.compon
 import { PocComponent } from './poc/poc.component';
 import { ExistingContactsComponent } from './existing-contacts/existing-contacts.component';
 import { FooterComponent } from './footer/footer.component';
+import { NewSellerFormComponent } from './new-seller-form/new-seller-form.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
     AddNewContactComponent,
     PocComponent,
     ExistingContactsComponent,
-    FooterComponent
+    FooterComponent,
+    NewSellerFormComponent
   ],
   imports: [
     BrowserModule

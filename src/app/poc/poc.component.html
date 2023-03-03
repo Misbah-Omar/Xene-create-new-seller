@@ -1,4 +1,5 @@
 <div class="poc">
     <app-add-new-contact></app-add-new-contact>
-    <app-existing-contacts></app-existing-contacts>
+    <app-existing-contacts *ngIf="!showFirst"></app-existing-contacts>
+    <app-new-seller-form *ngIf="showFirst"></app-new-seller-form>
 </div>
