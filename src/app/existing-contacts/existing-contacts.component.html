@@ -1,1 +1,19 @@
-<p>existing-contacts works!</p>
+<div *ngFor="let c of contacts">
+  <div class="contact-container">
+    <div class="image-container">
+      <img [src]="c.Image" alt="" />
+    </div>
+    <div class="details">
+      <p class="name">{{ c.name }}</p>
+      <p class="position">{{ c.position }}</p>
+      <div class="email">
+        <span class="material-icons-outlined blue-email"> email </span>
+        <p class="details email-addr">{{ c.email }}</p>
+      </div>
+      <div class="call">
+        <span class="material-icons-outlined blue-call"> call </span>
+        <p class="details">{{ c.phone }}</p>
+      </div>
+    </div>
+  </div>
+</div>

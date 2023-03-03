@@ -1,0 +1,49 @@
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #fcfcfc;
+  width: 348px;
+  height: 116px;
+  margin-top: 10px;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+}
+
+img {
+    height: 86px;
+    width: 86px;
+    border-radius: 4px;
+}
+.name {
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+.position{
+    color: #A7A7A7;
+    font-weight: 400;
+    font-size: 12px;
+}
+.email,.call{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    width: 247px;
+    height: 20px;
+}
+.email .blue-email{
+    margin-left: 15px;
+    color: #24C8C9;
+    font-size: 18px;
+}
+.call .blue-call{
+    margin-left: 15px;
+    margin-top: 2px;
+    color: #24C8C9;
+    font-size: 17px;
+}
+.details{
+    color: #515151;
+    font-weight: 400;
+    font-size: 12px;
+}
