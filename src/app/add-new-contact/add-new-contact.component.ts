@@ -1,4 +1,4 @@
-import { Component, Output, EventEmitter } from '@angular/core';
+import { Component, Output, EventEmitter, Input } from '@angular/core';
 
 @Component({
   selector: 'app-add-new-contact',
@@ -8,11 +8,14 @@ import { Component, Output, EventEmitter } from '@angular/core';
 export class AddNewContactComponent {
 
   @Output() newClickEvent = new EventEmitter<boolean>();
-
-  showFirst: boolean = true;
+  @Input() showStatus:boolean|undefined;
 
   toggle(){
-    this.showFirst = !this.showFirst;
-    this.newClickEvent.emit(this.showFirst);
+    this.showStatus = !this.showStatus
+    this.newClickEvent.emit(this.showStatus);
+    console.log(this.showStatus);
+    
+    console.log("muna");
+    
   }
 }

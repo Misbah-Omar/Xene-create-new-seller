@@ -1,5 +1,7 @@
 <div class="poc">
-    <app-add-new-contact></app-add-new-contact>
-    <app-existing-contacts *ngIf="!showFirst"></app-existing-contacts>
-    <app-new-seller-form *ngIf="showFirst"></app-new-seller-form>
+    <app-add-new-contact (newClickEvent)="showStatus=$event" *ngIf="!showStatus" [showStatus]="showStatus
+    " ></app-add-new-contact>
+    <app-new-seller-form [showStatus]="showStatus" *ngIf="showStatus" (hideForm)="showStatus=$event"></app-new-seller-form>
+    <app-existing-contacts></app-existing-contacts>
 </div>
+

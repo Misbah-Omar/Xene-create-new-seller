@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-poc',
@@ -6,7 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./poc.component.css']
 })
 export class PocComponent {
-  @Input() showFirst!: boolean;
-
-  
+  showStatus: boolean|undefined;
 }
